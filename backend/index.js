@@ -20,7 +20,7 @@ app.use(cors({
 }));
 
 app.use(express.static(path.join(__dirname, 'project/dist')));
-app.get("*", (req, res) => {
+app.get(/.*/, (req, res) => {
     res.sendFile(path.join(__dirname, 'project/dist', 'index.html'));
 });
 app.use(express.json());
