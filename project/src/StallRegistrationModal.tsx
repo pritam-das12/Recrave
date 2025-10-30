@@ -48,7 +48,7 @@ const StallRegistrationModal = ({
     setIsSubmitting(true);
 
     try {
-      const res = await fetch('https://recrave.vercel.app/api/v1/registerStall', {
+      const res = await fetch('https://recrave-nvw9.vercel.app/api/v1/registerStall', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

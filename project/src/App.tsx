@@ -59,7 +59,7 @@ function App() {
     e.preventDefault();
 
     try {
-      const res = await fetch("https://recrave.vercel.app/api/v1/createMessage", {
+      const res = await fetch("https://recrave-nvw9.vercel.app/api/v1/createMessage", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
