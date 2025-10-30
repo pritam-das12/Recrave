@@ -25,7 +25,7 @@ app.use(cors({
     "http://localhost:5173",
     "https://recrave-d5ek.vercel.app",
     "https://recrave.vercel.app",
-    "https://recrave-nvw9.vercel.app/"
+    "https://recrave-nvw9.vercel.app"
   ],
   methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
   allowedHeaders: ["Content-Type", "Authorization"],
