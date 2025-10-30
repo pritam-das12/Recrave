@@ -21,16 +21,19 @@ const PORT = process.env.PORT || 5000;
 
 
 app.use(cors({
-  origin: [
-    "http://localhost:5173",
-    "https://recrave-d5ek.vercel.app",
-    "https://recrave.vercel.app",
-    "https://recrave-nvw9.vercel.app"
-  ],
-  methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
-  allowedHeaders: ["Content-Type", "Authorization"],
-  credentials: true,
+    //   origin: [
+    //     "http://localhost:5173",
+    //     "https://recrave-d5ek.vercel.app",
+    //     "https://recrave.vercel.app",
+    //     "https://recrave-nvw9.vercel.app"
+    //   ],
+    origin: "*",
+    methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+    allowedHeaders: ["Content-Type", "Authorization"],
+    credentials: true,
 }));
+
+// app.options('*', cors());
 
 
 // app.use(express.static(path.join(__dirname, 'project/dist')));
@@ -40,7 +43,7 @@ app.use(cors({
 
 app.use(express.static(path.join(__dirname, 'dist')));
 app.get(/.*/, (req, res) => {
-  res.sendFile(path.join(__dirname, 'dist', 'index.html'));
+    res.sendFile(path.join(__dirname, 'dist', 'index.html'));
 });
 
 
