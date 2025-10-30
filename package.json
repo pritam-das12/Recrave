@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "nodemon backend/index.js",
     "start": "node backend/index.js",
-    "build": "npm install && npm install --prefix project && npm run build --prefix project"
+    "build": "npm install && npm install --prefix project && npm run build --prefix project && cp -r project/dist backend/dist"
   },
   "keywords": [],
   "author": "",
