@@ -2,13 +2,13 @@ import express from 'express';
 import dotenv from 'dotenv';
 import cors from 'cors';
 import connectDB from './db/connectDB.js';
-import path from 'path';
-
+import job from './cron.js';
 
 import messageRoutes from './routes/message.route.js';
 import stallRequirementRoutes from './routes/stallRequirement.route.js';
 
 dotenv.config();
+job.start();
 
 // const __dirname = path.resolve();
 
