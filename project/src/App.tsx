@@ -365,7 +365,7 @@ function App() {
             </div>
             <div className="group relative overflow-hidden rounded-2xl aspect-square hover:scale-105 transition-transform duration-300">
               <img
-                src="/png6.jpg"
+                src="/png7.jpg"
                 alt="ReCrave Event"
                 className="w-full h-full object-cover"
               />
