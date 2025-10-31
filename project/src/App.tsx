@@ -1,5 +1,5 @@
 import { useState, useEffect, ChangeEvent, FormEvent } from 'react';
-import { Menu, X, Instagram, Mail, Phone, MapPin, ChevronRight } from 'lucide-react';
+import { Menu, X, Instagram, Mail, Phone, MapPin} from 'lucide-react';
 
 import StallRegistrationModal from './StallRegistrationModal.tsx';
 import Toast from './toast.tsx';
@@ -300,8 +300,7 @@ function App() {
               <img
                 src="/png1.jpg"
                 alt="ReCrave Event"
-                className="w-full h-full object-cover"
-              />
+                className="w-full h-full object-cover"/>
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
                 <div className="p-6">
                   <h3 className="text-xl font-semibold mb-1">ReCrave 2024</h3>
