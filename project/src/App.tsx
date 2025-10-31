@@ -468,10 +468,10 @@ function App() {
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-5xl font-bold mb-4 bg-gradient-to-r from-orange-400 to-red-500 bg-clip-text text-transparent">
-              Our Sponsors
+              Past Sponsors
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-orange-500 to-red-600 mx-auto mb-4"></div>
-            <p className="text-gray-400 text-lg">Thank you to our amazing partners</p>
+            <p className="text-gray-400 text-lg">Thank you to our past amazing partners</p>
           </div>
 
           {/* Sponsor Logos Grid */}
