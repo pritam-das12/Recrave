@@ -234,7 +234,7 @@ function App() {
                     <div className="text-gray-400">Visitors</div>
                   </div>
                   <div className="text-center">
-                    <div className="text-4xl font-bold text-orange-500 mb-2">50+</div>
+                    <div className="text-4xl font-bold text-orange-500 mb-2">25+</div>
                     <div className="text-gray-400">Food Stalls</div>
                   </div>
                   <div className="text-center">
@@ -385,7 +385,7 @@ function App() {
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-5xl font-bold mb-4 bg-gradient-to-r from-orange-400 to-red-500 bg-clip-text text-transparent">
-              Our Sponsors
+              Past Sponsors
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-orange-500 to-red-600 mx-auto mb-4"></div>
             <p className="text-gray-400 text-lg">Thank you to our amazing partners</p>
